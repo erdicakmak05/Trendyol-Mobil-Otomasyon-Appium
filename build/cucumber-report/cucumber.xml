@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0"
+           failures="3"
+           name="io.cucumber.core.plugin.JUnitFormatter"
+           skipped="0"
+           tests="3"
+           time="0.609">
+   <testcase classname="US1002 Negative login testi"
+             name="TC02 Dogru mail yanlis password ile negative login testi"
+             time="0.046">
+      <failure message="The scenario has pending or undefined step(s)"
+               type="java.lang.Exception">Given kullanici trendyol uygulamasını acar..................................undefined
+And kullanici hesabım tab ina tiklar........................................skipped
+Then kullanici mail olarak "ValidEmail" girer...............................skipped
+And kullanici password olarak "InvalidPassword" girer.......................skipped
+And kullanici giris yap butonuna tiklar.....................................skipped
+And kullanicinin giris yapamadigini test eder...............................skipped
+And kullanici uygulamayi kapatir............................................skipped
+</failure>
+   </testcase>
+   <testcase classname="US1002 Negative login testi"
+             name="TC03 Yanlis mail dogru password ile negative login testi"
+             time="0.015">
+      <failure message="The scenario has pending or undefined step(s)"
+               type="java.lang.Exception">Given kullanici trendyol uygulamasını acar..................................undefined
+And kullanici hesabım tab ina tiklar........................................skipped
+Then kullanici mail olarak "InvalidEmail" girer.............................skipped
+And kullanici password olarak "ValidPassword" girer.........................skipped
+And kullanici giris yap butonuna tiklar.....................................skipped
+And kullanicinin giris yapamadigini test eder...............................skipped
+And kullanici uygulamayi kapatir............................................skipped
+</failure>
+   </testcase>
+   <testcase classname="US1002 Negative login testi"
+             name="TC04 Yanlis mail yanlis password ile negative login testi"
+             time="0.015">
+      <failure message="The scenario has pending or undefined step(s)"
+               type="java.lang.Exception">Given kullanici trendyol uygulamasını acar..................................undefined
+And kullanici hesabım tab ina tiklar........................................skipped
+Then kullanici mail olarak "InvalidEmail" girer.............................skipped
+And kullanici password olarak "InvalidPassword" girer.......................skipped
+And kullanici giris yap butonuna tiklar.....................................skipped
+And kullanicinin giris yapamadigini test eder...............................skipped
+And kullanici uygulamayi kapatir............................................skipped
+</failure>
+   </testcase>
+</testsuite>
